@@ -5,7 +5,7 @@
   "scripts": {
     "install:pods": "cd ios && bundle install && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install",
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios --simulator='iPhone Xs'",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
