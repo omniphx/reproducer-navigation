@@ -12,7 +12,6 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@react-navigation/bottom-tabs": "^6.5.19",
     "@react-navigation/native": "^6.1.16",
     "@react-navigation/stack": "^6.3.28",
     "patch-package": "^8.0.0",
