@@ -7,17 +7,20 @@
 
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-import {HomeScreen} from './HomeScreen';
+// import {createStackNavigator} from '@react-navigation/stack';
+// import {HomeScreen} from './HomeScreen';
+import {ChallengesStackScreen} from './ChallengesStackScreen';
 
-const Stack = createStackNavigator();
+// const Stack = createStackNavigator();
 
 function App(): React.JSX.Element {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={'AppStartupLoading'}>
+      <ChallengesStackScreen />
+      {/* <Stack.Navigator initialRouteName={'AppStartupLoading'}>
         <Stack.Screen name={'AppHome'} component={HomeScreen} />
-      </Stack.Navigator>
+        <Stack.Screen name={'AppHome'} component={HomeScreen} />
+      </Stack.Navigator> */}
     </NavigationContainer>
   );
 }
